@@ -18,7 +18,6 @@
 
 .info-text {
     text-align: justify;
-    font-family: "Roboto Mono", monospace;
     line-height: 2em;
 }
 
@@ -28,14 +27,18 @@
     border-style: double;
     border-width: thick;
     display: inline-flex;
+    font-family: "Times New Roman", Georgia, Serif;
     font-size: 4em;
     justify-content: center;
-    min-width: 3em;
-    min-height: 3em;
+    min-width: 2.5em;
+    min-height: 2.5em;
     vertical-align: middle;
+
+    animation: jump 3s ease 0s infinite normal ;
 }
 
 .social-icons {
+    min-height: 1em;
     padding: .5em .5em;
     width: 1em;
 }
@@ -44,11 +47,63 @@
     padding-top: 15%;
 }
 
+.nav-links {
+    border-left: double;
+    font-size: small;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.nav-links-item1 {
+    letter-spacing: 0.3em;
+    padding-bottom: 1%;
+    padding-left: 1%;
+
+    animation: blinker 3s linear infinite;
+}
+
+.nav-links-item2 {
+    letter-spacing: 0.3em;
+    padding-left: 1%;
+
+    animation: blinker 5s linear infinite;
+}
+
 a {
+    color: #09234c;
     text-decoration: none;
 }
 
 body {
     background: url("../images/crossword.png") repeat;
     color: #09234c;
+    font-family: "Roboto Mono", monospace;
+}
+
+@keyframes jump {
+    0%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(-15px);
+    }
+    80%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
 }
