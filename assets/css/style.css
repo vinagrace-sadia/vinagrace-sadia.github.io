@@ -1,0 +1,54 @@
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.has-padding-top-mid {
+    padding-top: 15%;
+}
+
+.has-padding-top-sml {
+    padding-top: 5%;
+}
+
+.info-text {
+    text-align: justify;
+    font-family: "Roboto Mono", monospace;
+    line-height: 2em;
+}
+
+.header-initials {
+    align-items: center;
+    border-radius: 50%;
+    border-style: double;
+    border-width: thick;
+    display: inline-flex;
+    font-size: 4em;
+    justify-content: center;
+    min-width: 3em;
+    min-height: 3em;
+    vertical-align: middle;
+}
+
+.social-icons {
+    padding: .5em .5em;
+    width: 1em;
+}
+
+.social-links {
+    padding-top: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url("../images/crossword.png") repeat;
+    color: #09234c;
+}
