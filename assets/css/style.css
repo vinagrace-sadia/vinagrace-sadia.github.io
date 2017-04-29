@@ -119,6 +119,33 @@
     padding-left: 8em;
 }
 
+.project-description {
+    border-right: double;
+    float: left;
+    width: 46%;
+    position: relative;
+    overflow: hidden;
+    padding-left: 8em;
+    padding-right: 3em;
+}
+
+.project-title {
+    float: left;
+    font-size: larger;
+    width: 15em;
+    position: relative;
+    overflow: hidden;
+    padding-left: 3em;
+}
+
+.project-title a {
+    animation: colorchange 20s infinite alternate;
+}
+
+.project-item {
+    padding-bottom: 15em;
+}
+
 #about {
     text-align: justify;
     font-size: smaller;
