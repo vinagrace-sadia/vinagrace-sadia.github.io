@@ -59,7 +59,7 @@
     margin-left: 3%;
 }
 
-.nav-links-item1 {
+.nav-links-item-first {
     letter-spacing: 0.3em;
     padding-bottom: 1%;
     padding-left: 1%;
@@ -67,7 +67,15 @@
     animation: blinker 3s linear infinite;
 }
 
-.nav-links-item2 {
+.nav-links-item-second {
+    letter-spacing: 0.3em;
+    padding-bottom: 1%;
+    padding-left: 1%;
+
+    animation: blinker 3s linear infinite;
+}
+
+.nav-links-item-last {
     letter-spacing: 0.3em;
     padding-left: 1%;
 
