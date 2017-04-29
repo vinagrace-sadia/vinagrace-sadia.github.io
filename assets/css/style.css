@@ -59,27 +59,26 @@
     margin-left: 3%;
 }
 
+.nav-links a {
+    text-decoration: overline;
+    animation: colorchange 20s infinite alternate;
+}
+
 .nav-links-item-first {
     letter-spacing: 0.3em;
     padding-bottom: 1%;
     padding-left: 1%;
-
-    animation: blinker 3s linear infinite;
 }
 
 .nav-links-item-second {
     letter-spacing: 0.3em;
     padding-bottom: 1%;
     padding-left: 1%;
-
-    animation: blinker 3s linear infinite;
 }
 
 .nav-links-item-last {
     letter-spacing: 0.3em;
     padding-left: 1%;
-
-    animation: blinker 5s linear infinite;
 }
 
 .key-skills {
@@ -88,7 +87,7 @@
     width: 35%;
     position: relative;
     overflow: hidden;
-    padding-left: 10em;
+    padding-left: 5em;
 }
 
 .key-skills-title {
