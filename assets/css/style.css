@@ -21,7 +21,7 @@
 }
 
 .info-text {
-    text-align: justify;
+    text-align: center;
     line-height: 2em;
 }
 
@@ -38,12 +38,12 @@
     min-width: 2.5em;
     min-height: 2.5em;
     vertical-align: middle;
+    margin-top: 1%;
 
-    animation: jump 3s ease 0s infinite normal ;
+    animation: jump 4s ease 0s normal ;
 }
 
 .social-icons {
-    min-height: 1em;
     padding: .5em .5em;
     width: 1em;
 }
@@ -61,7 +61,7 @@
 
 .nav-links a {
     text-decoration: overline;
-    animation: colorchange 20s infinite alternate;
+    color: #34495e
 }
 
 .nav-links-item-first {
@@ -82,18 +82,12 @@
 }
 
 .key-skills {
-    float: left;
-    font-size: larger;
-    width: 35%;
-    position: relative;
-    overflow: hidden;
-    padding-left: 5em;
-}
-
-.key-skills-title {
-    font-size: x-large;
-
-    animation: colorchange 20s infinite alternate;
+    padding-bottom: 2%;
+    border-bottom: black;
+    border-bottom-style: double;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 2%;
 }
 
 .key-skills-lists {
@@ -106,16 +100,14 @@
 .key-skills-lists li {
     padding-bottom: 1em;
     width: 32%;
-
-    animation: shake 20s infinite alternate;
 }
 
 .intro {
     float: left;
-    width: 46%;
+    width: 70%;
     position: relative;
     overflow: hidden;
-    padding-left: 8em;
+    padding-left: 15%;
 }
 
 .project-description {
@@ -131,23 +123,45 @@
 .project-title {
     float: left;
     font-size: larger;
-    width: 15em;
+    width: 21%;
     position: relative;
     overflow: hidden;
-    padding-left: 3em;
-}
-
-.project-title a {
-    animation: colorchange 20s infinite alternate;
+    padding-left: 2%;
+    text-align: left;
 }
 
 .project-item {
-    padding-bottom: 15em;
+    padding-left: 10%;
+}
+
+.tag-green {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 15px;
+  position: relative;
+  content: "";
+  cursor: pointer;
+  margin: 0px 13px 0 0;
+  padding: 4px 28px 10px 20px;
+  border: none;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  font: normal 10px/24px "Antic", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #1a93bc85;
+  -webkit-box-shadow: -3px 5px 0 0 #1676a09c;
+  box-shadow: -3px 5px 0 0 #1676a09c;
 }
 
 #about {
-    text-align: justify;
-    font-size: smaller;
+    text-align: center;
+    font-size: small;
     padding-top: 3%;
 }
 
@@ -157,7 +171,8 @@ a {
 }
 
 body {
-    background: url("../images/crossword.png") repeat;
+    background: url("../images/background-cement-concrete.jpg") repeat;
+    background-size: cover;
     color: #09234c;
     font-family: "Roboto Mono", monospace;
 }
