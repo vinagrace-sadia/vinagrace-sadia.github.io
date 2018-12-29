@@ -104,10 +104,10 @@
 
 .intro {
     float: left;
-    width: 70%;
+    width: 65%;
     position: relative;
     overflow: hidden;
-    padding-left: 15%;
+    padding-left: 18%;
 }
 
 .project-description {
@@ -161,7 +161,6 @@
 
 #about {
     text-align: center;
-    font-size: small;
     padding-top: 3%;
 }
 
