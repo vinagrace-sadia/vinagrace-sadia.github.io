@@ -171,6 +171,8 @@ a {
 body {
     background: url("../images/background-cement-concrete.jpg") repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #09234c;
     font-family: "Roboto Mono", monospace;
 }
