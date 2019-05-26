@@ -76,6 +76,11 @@
     float: right;
 }
 
+.header-content-main {
+    padding-bottom: 1%;
+    text-align: center;
+}
+
 .header-content {
     padding-bottom: 1%;
 }
