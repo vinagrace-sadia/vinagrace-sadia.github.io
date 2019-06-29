@@ -30,6 +30,8 @@
     font-size: 140%;
     line-height: 2em;
     text-align: center;
+
+    animation: colorchange 15s infinite;
 }
 
 .title-text-italic {
@@ -61,7 +63,7 @@
     vertical-align: middle;
     margin-top: 13%;
 
-    animation: jump 4s ease 0s normal ;
+    animation: flipInX 1.5s ease;
 }
 
 .header-initials-small {
@@ -80,8 +82,9 @@
     vertical-align: middle;
     margin-top: 1%;
     margin-right: 45%;
-    animation: jump 4s ease 0s normal;
     float: right;
+
+    animation: flipInX 2s ease;
 }
 
 .header-content-main {
@@ -443,56 +446,56 @@ body {
 @keyframes colorchange {
     0% {
 
-        color: black;
+        color: #fde9c5;
     }
 
     10% {
 
-        color: #8e44ad;
+        color: #d69f3e;
     }
 
     20% {
 
-        color: #1abc9c;
+        color: #fde9c5;
     }
 
     30% {
 
-        color: #d35400;
+        color: #d69f3e;
     }
 
     40% {
 
-        color: black;
+        color: #fde9c5;
     }
 
     50% {
 
-        color: #34495e;
+        color: #d69f3e;
     }
 
     60% {
 
-        color: black;
+        color: #fde9c5;
     }
 
     70% {
 
-        color: #2980b9;
+        color: #d69f3e;
     }
     80% {
 
-        color: #f1c40f;
+        color: #fde9c5;
     }
 
     90% {
 
-        color: #2980b9;
+        color: #d69f3e;
     }
 
     100% {
 
-        color: pink;
+        color: #fde9c5;
     }
 }
 
@@ -508,4 +511,50 @@ body {
     20%, 40%, 60%, 80% {
         transform: translate3d(10px, 0, 0);
     }
+}
+
+@keyframes flipInX {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
