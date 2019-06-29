@@ -397,13 +397,13 @@ body {
         border-right: none;
         font-size: medium;
         padding: 8% 4% 0 4%;
-        width: 100%;
+        width: auto;
         line-height: 1.5;   
     }
 
     .project-title {
         font-size: large;
-        padding-left: 18%;
+        padding-left: 10%;
         width: 80%;
     }
 
