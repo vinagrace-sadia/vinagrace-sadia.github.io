@@ -48,8 +48,8 @@
     align-items: center;
     background: #D69F3E;
     border-radius: 50%;
-    box-shadow: 1px 0px 0 7px #383838,
-    1px 1px 0 15px #D69F3E;
+    box-shadow: 1px 0px 0 9px #383838,
+    1px 0px 0 15px #D69F3E;
     color: #383838;
     display: inline-flex;
     font-family:  'Open Sans', sans-serif;
@@ -68,7 +68,7 @@
     align-items: center;
     background: #D69F3E;
     border-radius: 50%;
-    box-shadow: 1px 0px 0 8px #383838, 1px 1px 0 13px #D69F3E;
+    box-shadow: 1px 0px 0 9px #383838, 1px 0px 0 15px #D69F3E;
     color: #383838;
     display: inline-flex;
     font-family: 'Open Sans', sans-serif;
