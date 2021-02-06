@@ -1,5 +1,5 @@
 # Online Portfolio
-#### PHP Backend Developer
+#### Backend Developer
 
 Domain is setup and hosted in AWS Route53.
 
